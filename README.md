@@ -1,34 +1,67 @@
+⚠️ **This is an archived academic project and is no longer actively maintained.**
+
+![Status](https://img.shields.io/badge/status-archived-red)
+![Project](https://img.shields.io/badge/type-academic-blue)
+
 # Department Course Exit Survey
-This project is a web application designed to collect feedback from students upon the completion of a course. The application utilizes various libraries and tools to create an interactive and user-friendly survey experience. It allows departments to gather insights on course effectiveness, teaching methods, and overall student satisfaction. The data collected can be used to make informed decisions on curriculum improvements and teaching strategies.
 
+A web-based application designed to collect structured feedback from students at the completion of a course. The system enables academic departments to evaluate course effectiveness, teaching methodologies, and overall student satisfaction through data-driven insights.
 
-## Features
-- Survey Creation and Management: Facilitates the design and deployment of course exit surveys.
-- Real-time Data Collection: Utilizes Firebase for storing and managing survey responses.
-- Data Visualization: Uses Chart.js and React-Chartjs-2 to visualize survey results, making it easier for administrators to analyze feedback.
-- Responsive Design: Built with Bootstrap and React-Bootstrap to ensure a seamless experience across devices.
-- Export Functionality: Allows exporting survey results to Excel files using the XLSX library for further analysis.
+It features a user-friendly survey interface and an administrative dashboard for real-time analytics and reporting.
 
+---
 
-## Technologies Used
-- Front-end: React, Bootstrap, React-Bootstrap, Styled-Components, React-Router-Dom, Chart.js, React-Chartjs-2
-- Front-end Framework: React, Bootstrap, React-Bootstrap, Styled-Componenets
-- Authentication: Firebase Authentication
-- Backend: Firebase
-- Database: Firebase Realtime Database
-- XLSX Generation: xlsx library
+## 🚀 Features
 
+* **Survey Management**
+  Design and deploy structured course exit surveys.
 
-## Screenshots
+* **Real-time Data Collection**
+  Responses are stored and synchronized instantly using Firebase.
 
-![Home](screenshots/Home_page.png) 
+* **Data Visualization**
+  Interactive charts powered by Chart.js for efficient analysis of feedback.
 
-![Courses](screenshots/Courses.png)
+* **Responsive UI**
+  Fully responsive interface built with React and Bootstrap.
 
-![Form_start](screenshots/Form_start.png)
+* **Excel Export**
+  Export survey data for offline analysis and reporting.
 
-![Form_end](screenshots/Form_end.png)
+---
 
-![Submission](screenshots/Submission.png)
+## 🛠️ Tech Stack
 
-![Admin_analysis](screenshots/Admin_analysis.png)
+* **Frontend:** React, Bootstrap, React-Bootstrap, Styled-Components
+* **Routing:** React Router DOM
+* **Visualization:** Chart.js, React-Chartjs-2
+* **Backend (BaaS):** Firebase
+* **Authentication:** Firebase Authentication
+* **Database:** Firebase Realtime Database
+* **Data Export:** XLSX
+
+---
+
+## 📸 Screenshots
+
+| Home                           | Courses                      |
+| ------------------------------ | ---------------------------- |
+| ![](screenshots/Home_page.png) | ![](screenshots/Courses.png) |
+
+| Form Start                      | Form End                      |
+| ------------------------------- | ----------------------------- |
+| ![](screenshots/Form_start.png) | ![](screenshots/Form_end.png) |
+
+| Submission                      | Admin Analysis                      |
+| ------------------------------- | ----------------------------------- |
+| ![](screenshots/Submission.png) | ![](screenshots/Admin_analysis.png) |
+
+---
+
+## 📌 Notes
+
+* Developed as part of a B.Tech project at DBATU
+* Archived project — dependencies may be outdated
+* Intended for academic demonstration purposes only
+
+---
